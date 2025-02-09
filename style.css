@@ -6,8 +6,10 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: white;
-    line-height: 1.6;
+    line-height: 1.5;
 }
+
+/*Navigation styling*/
 
 .nav-container {
     position: sticky;
@@ -15,7 +17,7 @@ body {
     left: 0;
     width: 100%;
     z-index: 1000;
-    background-color: rgb(17, 124, 255);
+    background-color: rgb(36, 62, 255);
     padding: 1rem;
 }
 
@@ -38,7 +40,79 @@ body {
 
 .navbar a:hover {
     background-color: aliceblue;
-    color: black;
-    border-bottom: 5px solid black;
+    color: rgb(36, 62, 255);
+    border-bottom: 5px solid rgb(36, 62, 255);
     font-size: 1.6rem;
+    /*text-decoration: underline;*/
+}
+
+/*Header styling*/
+
+.two-column-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 70px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+}
+
+.header-column {
+    flex-basis: 48%;
+}
+
+.header-column h1 {
+    font-size: 6.5rem;
+    line-height: 1;
+}
+
+.header-column img {
+    height: 350px;
+    width: auto;
+    margin-left: 200px;
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(36, 62, 255);
+    padding-bottom: 100px;
+    color: white;
+}
+
+.paragraph {
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-right: 20px;
+    font-size: 1.5rem;
+    flex-basis: 65%;
+}
+
+.links {
+    margin-top: 20px;
+    margin-right: 80px;
+}
+
+.links ul {
+    list-style: none;
+}
+
+.links li {
+    margin-bottom: 10px;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+    font-size: 4rem;
+    flex-basis: 32%;
+    border: 5px solid white;
+    border-radius: 20px;
+    padding: 5px;
+    transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+}
+
+.links a:hover {
+    color: rgb(36, 62, 255);
+    background-color: white;
 }
