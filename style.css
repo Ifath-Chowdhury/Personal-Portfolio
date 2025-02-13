@@ -162,3 +162,42 @@ body {
     margin-left: 60px;
     margin-right:-10px;
 }
+
+/*Footer styling*/
+
+#footer {
+    padding-top: 25px;
+    background-color: rgb(224, 224, 224);
+    padding-bottom: 25px;
+    color: black;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+footer p {
+    padding-bottom: 25px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.footer-links a {
+    color: inherit;
+    text-decoration: none;
+    flex-basis: 32%;
+    border-radius: 20px;
+    padding: 15px;
+    transition: font-size 0.35s ease-in-out;
+}
+
+.footer-links a:hover {
+    font-size: 1.6rem;
+}
