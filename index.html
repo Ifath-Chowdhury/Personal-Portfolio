@@ -8,14 +8,18 @@
     <body>
         <!--Navigation section - About section will be on main page, clicking "About Me" on the nav bar will scroll down to 
         that section-->
+        <div id="header"></div>
         <div class="nav-container">
             <nav class="navbar">
                 <ul>
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="#header">Home</a>
                     </li>
                     <li>
-                        <a>About Me</a>
+                        <a href="#about">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Skills</a>
                     </li>
                     <li>
                         <a>Projects</a>
@@ -28,6 +32,7 @@
         </div>
 
         <!--Header section-->
+
         <div class="two-column-header">
             <div class="header-column">
                 <header>
@@ -60,22 +65,48 @@
         </div>
 
         <!--About section-->
-        <div class="two-column-about-section">
-            <div class="column">
-                <section>
-                    <h1>About Me</h1>
-                </section>
+        <div id="about">
+            <div class="two-column-section">
+                <div class="column">
+                    <section>
+                        <h1>About Me</h1>
+                    </section>
+                </div>
+    
+                <div class="column">
+                    <section>
+                        <p class="info-box">
+                            Well trained in various coding languages, I am a hardworking, punctual individual that is 
+                            always dedicated to the task at hand. In a team I can cooperate and communicate with my 
+                            team members to maintain a well-oiled machine, but I am also an independant and steadfast 
+                            leader capable of leading a team into a perfectly made application.
+                        </p>
+                    </section>
+                </div>
             </div>
+        </div>
 
-            <div class="column">
-                <section>
-                    <p>
-                        Well trained in various coding languages, I am a hardworking, punctual individual that is 
-                        always dedicated to the task at hand. In a team I can cooperate and communicate with my 
-                        team members to maintain a well-oiled machine, but I am also an independant and steadfast 
-                        leader capable of leading a team into a perfectly made application.
-                    </p>
-                </section>
+        <!--Skills section-->
+        <div id="skills">
+            <div class="two-column-section">
+                <div class="column">
+                    <section>
+                        <ul class="info-box">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Python</li>
+                            <li>Incredible leadership</li>
+                            <li>Excellent cooperation</li>
+                            <li>Amazing customer service</li>
+                        </ul>
+                    </section>
+                </div>
+    
+                <div class="column">
+                    <section>
+                        <h1>My Skills</h1>
+                    </section>
+                </div>
             </div>
         </div>
 

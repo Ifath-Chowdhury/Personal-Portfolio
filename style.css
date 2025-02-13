@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: white;
@@ -112,6 +116,7 @@ body {
     border-radius: 20px;
     padding: 5px;
     transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
 }
 
 .links a:hover {
@@ -121,7 +126,7 @@ body {
 
 /*About us section styling*/
 
-.two-column-about-section {
+.two-column-section {
     display: flex;
     justify-content: space-between;
     padding-top: 40px;
@@ -143,11 +148,17 @@ body {
     margin-left: 60px;
 }
 
-.column p {
+.info-box {
     background-color: white;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     padding: 25px;
     margin-right: 80px;
     font-size: 1.5rem;
+    list-style: none;
+}
+
+.column ul {
+    margin-left: 60px;
+    margin-right:-10px;
 }
