@@ -163,6 +163,36 @@ body {
     margin-right:-10px;
 }
 
+/*Contact section styling*/
+
+.contact-form {
+    background-color: rgb(36, 62, 255);
+    border-radius: 20px;
+    color: white;
+    padding: 25px;
+    margin: 25px;
+    display: block;
+    text-align: center;
+}
+
+.contact-form h1 {
+    font-size: 4.5rem;
+}
+
+.contact-form button {
+    border: 5px solid white;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    padding: 1rem 1rem;
+    font-weight: 800;
+    transform: 0.2s;
+}
+
+.contact-form button:hover {
+    transform: scale(1.2);
+}
+
 /*Footer styling*/
 
 #footer {
