@@ -193,6 +193,32 @@ body {
     transform: scale(1.2);
 }
 
+/*Project showcase styling*/
+.project-showcase-section {
+    margin: 15px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.project-showcase-section h1 {
+    font-size: 4.5rem;
+}
+
+.project-showcase {
+    background-color: rgba(128, 128, 128, 0.25);
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project {
+    background-color: rgba(36, 62, 255, 0.8);
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    border-radius: 15px;
+}
+
 /*Footer styling*/
 
 #footer {
