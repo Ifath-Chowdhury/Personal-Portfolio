@@ -4,7 +4,7 @@ This is a portfolio website made to advertise my skills and projects I've create
 
 Live Demo: https://personal-portfolio-dusky-zeta-53.vercel.app/
 
-<img src="personal-portoflio-sc1.png" alt="Home page screenshot 1">
+<img src="assets/personal-portoflio-sc1.png" alt="Home page screenshot 1">
 
 ---
 
@@ -50,13 +50,13 @@ The objective of this project was to make a clean portfolio that I can add my pr
 
 ## Screenshots
 
-<img src="personal-portoflio-sc1.png" alt="Home page screenshot 1">
+<img src="assets/personal-portoflio-sc1.png" alt="Home page screenshot 1">
 
-<img src="personal-portoflio-sc2.png" alt="Home page screenshot 2">
+<img src="assets/personal-portoflio-sc2.png" alt="Home page screenshot 2">
 
-<img src="personal-portoflio-sc3.png" alt="Projects page screenshot">
+<img src="assets/personal-portoflio-sc3.png" alt="Projects page screenshot">
 
-<img src="personal-portoflio-sc4.png" alt="Contact page screenshot 1">
+<img src="assets/personal-portoflio-sc4.png" alt="Contact page screenshot 1">
 
 ---
 
